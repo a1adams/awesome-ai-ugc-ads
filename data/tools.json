@@ -1,0 +1,214 @@
+{
+  "keyword": "ai ugc ads",
+  "title": "Best AI UGC Ads Tools for Small Agencies (2026)",
+  "lastChecked": "2026-09-02",
+  "capabilityChecks": [
+    {
+      "key": "reusableWorkflow",
+      "label": "Reusable workflow"
+    },
+    {
+      "key": "apiOnAllTiers",
+      "label": "API on all tiers"
+    },
+    {
+      "key": "costVisibility",
+      "label": "Cost visibility"
+    },
+    {
+      "key": "builtInEditor",
+      "label": "Built-in editor"
+    },
+    {
+      "key": "batchRuns",
+      "label": "Batch runs"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best Overall",
+      "homepage": "https://www.wireflow.ai",
+      "docs": "https://www.wireflow.ai/docs/mcp",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
+      "restApi": true,
+      "modelSupport": "Multi-model catalog across image, video and audio nodes",
+      "freeTier": "yes",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the hosted MCP server to Claude Code, then approve the OAuth consent screen:",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "In Claude Desktop or claude.ai, add the same URL as a custom connector. Read-only tools (`list_workflows`, `list_models`, `get_execution`) cost nothing; `run_workflow` is the only one that spends credits.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/api/mcp"
+        }
+      ],
+      "capabilities": {
+        "reusableWorkflow": true,
+        "apiOnAllTiers": true,
+        "costVisibility": true,
+        "builtInEditor": true,
+        "batchRuns": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Arcads",
+      "tagline": "· script-to-actor generator with a large AI actor roster",
+      "homepage": "https://www.arcads.ai",
+      "docs": null,
+      "pricing": null,
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Arcads’ own AI actor library",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Checked 2026-09-01: Arcads advertises an \"AI Video API\" and \"Lip Sync API\" on its own site, but publishes no public developer docs and no public pricing page we could reach — pricing is behind the app.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": false,
+        "apiOnAllTiers": false,
+        "costVisibility": false,
+        "builtInEditor": false,
+        "batchRuns": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 3,
+      "name": "Creatify",
+      "tagline": "· URL-to-ad generator with template-driven output",
+      "homepage": "https://creatify.ai",
+      "docs": "https://docs.creatify.ai",
+      "pricing": "https://creatify.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Creatify’s own avatar and URL-to-video models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Creatify’s docs describe generating videos \"programmatically\" through \"simple REST API calls\". Its homepage advertises \"no credit card required\" to start, which is a trial claim rather than a stated free tier.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": null,
+        "apiOnAllTiers": true,
+        "costVisibility": false,
+        "builtInEditor": null,
+        "batchRuns": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "MakeUGC",
+      "tagline": "· credit-metered avatar generator with a separate API plan",
+      "homepage": "https://www.makeugc.ai",
+      "docs": "https://app.makeugc.ai/api/platform/documentation",
+      "pricing": "https://www.makeugc.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "MakeUGC’s own avatar library",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "MakeUGC links \"API access\" to app.makeugc.ai/api/platform/documentation from its own footer. Its entry offer is a paid $1 trial, not a free tier.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": false,
+        "apiOnAllTiers": null,
+        "costVisibility": false,
+        "builtInEditor": false,
+        "batchRuns": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "HeyGen",
+      "tagline": "· avatar and lip-sync platform with heavy localization",
+      "homepage": "https://www.heygen.com",
+      "docs": "https://docs.heygen.com",
+      "pricing": "https://www.heygen.com/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "HeyGen’s avatar, voice and translation models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Verified 2026-09-01 from HeyGen’s own quickstart: the API base URL is https://api.heygen.com and it authenticates with an `X-Api-Key` header. No official SDK package is referenced, so no install command is reproduced here.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": false,
+        "apiOnAllTiers": null,
+        "costVisibility": false,
+        "builtInEditor": null,
+        "batchRuns": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Captions",
+      "tagline": "· mobile-first editor with a cloned-likeness AI Twin",
+      "homepage": "https://www.captions.ai",
+      "docs": "https://captions.ai/help/docs/api/overview",
+      "pricing": "https://www.captions.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Captions’ own captioning and video generation models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Checked 2026-09-01: the API is documented under the Mirage brand and help.mirage.app now redirects to captions.ai/help. No verbatim request example was published on the overview page, so none is reproduced here.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": false,
+        "apiOnAllTiers": false,
+        "costVisibility": false,
+        "builtInEditor": true,
+        "batchRuns": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    }
+  ]
+}
