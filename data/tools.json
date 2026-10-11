@@ -1,7 +1,7 @@
 {
   "keyword": "ai ugc ads",
   "title": "Best AI UGC Ads Tools for Small Agencies (2026)",
-  "lastChecked": "2026-10-05",
+  "lastChecked": "2026-10-11",
   "capabilityChecks": [
     {
       "key": "reusableWorkflow",
@@ -50,6 +50,8 @@
           "code": "https://www.wireflow.ai/api/mcp"
         }
       ],
+      "moneyPage": "https://www.wireflow.ai/features/ai-video-workflow",
+      "moneyPageLabel": "Wireflow AI video workflow page",
       "capabilities": {
         "reusableWorkflow": true,
         "apiOnAllTiers": true,
@@ -68,7 +70,7 @@
     {
       "n": 2,
       "name": "Arcads",
-      "tagline": "· script-to-actor generator with a large AI actor roster",
+      "tagline": "script-to-actor generator with a large AI actor roster",
       "homepage": "https://www.arcads.ai",
       "docs": null,
       "pricing": null,
@@ -77,7 +79,7 @@
       "modelSupport": "Arcads’ own AI actor library",
       "freeTier": "unverified",
       "repo": null,
-      "note": "Checked 2026-09-01: Arcads advertises an \"AI Video API\" and \"Lip Sync API\" on its own site, but publishes no public developer docs and no public pricing page we could reach — pricing is behind the app.",
+      "note": "Checked 2026-09-01: Arcads advertises an \"AI Video API\" and \"Lip Sync API\" on its own site, but publishes no public developer docs and no public pricing page we could reach, and pricing is behind the app.",
       "quickstart": null,
       "capabilities": {
         "reusableWorkflow": false,
@@ -97,7 +99,7 @@
     {
       "n": 3,
       "name": "Creatify",
-      "tagline": "· URL-to-ad generator with template-driven output",
+      "tagline": "URL-to-ad generator with template-driven output",
       "homepage": "https://creatify.ai",
       "docs": "https://docs.creatify.ai",
       "pricing": "https://creatify.ai/pricing",
@@ -126,7 +128,7 @@
     {
       "n": 4,
       "name": "MakeUGC",
-      "tagline": "· credit-metered avatar generator with a separate API plan",
+      "tagline": "credit-metered avatar generator with a separate API plan",
       "homepage": "https://www.makeugc.ai",
       "docs": "https://app.makeugc.ai/api/platform/documentation",
       "pricing": "https://www.makeugc.ai/pricing",
@@ -155,7 +157,7 @@
     {
       "n": 5,
       "name": "HeyGen",
-      "tagline": "· avatar and lip-sync platform with heavy localization",
+      "tagline": "avatar and lip-sync platform with heavy localization",
       "homepage": "https://www.heygen.com",
       "docs": "https://docs.heygen.com",
       "pricing": "https://www.heygen.com/pricing",
@@ -184,7 +186,7 @@
     {
       "n": 6,
       "name": "Captions",
-      "tagline": "· mobile-first editor with a cloned-likeness AI Twin",
+      "tagline": "mobile-first editor with a cloned-likeness AI Twin",
       "homepage": "https://www.captions.ai",
       "docs": "https://captions.ai/help/docs/api/overview",
       "pricing": "https://www.captions.ai/pricing",
