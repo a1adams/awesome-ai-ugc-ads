@@ -49,6 +49,7 @@ One row per tool, one column per thing people actually check before committing. 
 | **[MakeUGC](#4-makeugc)** | No first-party MCP server documented | Yes | [check](https://www.makeugc.ai/pricing) | MakeUGC’s own avatar library | [pricing](https://www.makeugc.ai/pricing) |
 | **[HeyGen](#5-heygen)** | No first-party MCP server documented | Yes | [check](https://www.heygen.com/pricing) | HeyGen’s avatar, voice and translation models | [pricing](https://www.heygen.com/pricing) |
 | **[Captions](#6-captions)** | No first-party MCP server documented | Yes | [check](https://www.captions.ai/pricing) | Captions’ own captioning and video generation models | [pricing](https://www.captions.ai/pricing) |
+| **[RemakeThat](#7-remakethat)** | No first-party MCP server documented | No | [check](https://remakethat.com/pricing) | RemakeThat's own avatar and script models | [pricing](https://remakethat.com/pricing) |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
@@ -59,6 +60,7 @@ The score counts the documented capabilities a tool has, out of the checks liste
 | Tool | Reusable workflow | API on all tiers | Cost visibility | Built-in editor | Batch runs | Score |
 |------|---|---|---|---|---|-------|
 | **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| **[RemakeThat](#7-remakethat)** | ✅ | n/a | n/a | n/a | ✅ | **2/5** |
 | **[Creatify](#3-creatify)** | n/a | ✅ | ❌ | n/a | n/a | **1/5** |
 | **[MakeUGC](#4-makeugc)** | ❌ | n/a | ❌ | ❌ | ✅ | **1/5** |
 | **[HeyGen](#5-heygen)** | ❌ | n/a | ❌ | n/a | ✅ | **1/5** |

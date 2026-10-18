@@ -211,6 +211,35 @@
         "latestReleaseDate": null,
         "checkedAt": null
       }
+    },
+    {
+      "n": 7,
+      "name": "RemakeThat",
+      "tagline": "Winner-remake generator: links a proven TikTok/Facebook video, renders an original faceless AI-creator version",
+      "homepage": "https://remakethat.com",
+      "docs": "https://remakethat.com/guides/faceless-tiktok-affiliate-marketing",
+      "pricing": "https://remakethat.com/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": false,
+      "modelSupport": "RemakeThat's own avatar and script models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "The input is a linked winning video, not a product URL: there is no URL-to-ad path. Output is AI-avatar faceless video only, and subscriptions carry no refunds given generation cost.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": true,
+        "apiOnAllTiers": null,
+        "costVisibility": null,
+        "builtInEditor": null,
+        "batchRuns": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
     }
   ]
 }
