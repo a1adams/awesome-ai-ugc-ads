@@ -1,5 +1,6 @@
 # Best AI UGC Ads Tools for Small Agencies (2026)
 
+- [Ideoy](https://ideoy.ai) - Remake this week's meme videos with one selfie (AI image-to-video, freemium, adults only).
 ![Best AI UGC Ads Tools for Small Agencies (2026)](https://assets.wireflow.ai/linkedin/ai-ugc-ads-small-agencies/hero.png?v=r5)
 
 A maintained dataset of **ai ugc ads** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
