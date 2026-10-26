@@ -211,6 +211,35 @@
         "latestReleaseDate": null,
         "checkedAt": null
       }
+    },
+    {
+      "n": 7,
+      "name": "makeaicreator",
+      "tagline": "face-locked AI influencer builder for product-placement ad clips",
+      "homepage": "https://makeaicreator.com",
+      "docs": null,
+      "pricing": null,
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": false,
+      "modelSupport": "makeaicreator's own face-anchored photo and video generation",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "One locked face per influencer: the same character anchors every photo and video, so multi-actor variety needs separate personas. No public API or auto-posting; clips render in minutes each, and realistic output needs platform AI labels plus a bio disclosure line.",
+      "quickstart": null,
+      "capabilities": {
+        "reusableWorkflow": true,
+        "apiOnAllTiers": null,
+        "costVisibility": null,
+        "builtInEditor": null,
+        "batchRuns": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
     }
   ]
 }
