@@ -114,7 +114,7 @@ https://www.wireflow.ai/api/mcp
 ![Creatify homepage screenshot](https://assets.wireflow.ai/linkedin/ai-ugc-ads-small-agencies/screenshot-creatify.png?v=r5)
 
 - **What it is:** a URL-to-ad generator. You paste a product link, it scrapes the details, and it assembles a UGC-style video using AI actors and prebuilt ad templates.
-- **Limits:** template-driven output means variants look like siblings, a problem when a client wants ten visibly different creatives. There is no node-level control over shots, so deep revisions mean regenerating rather than editing. Agencies needing shot-level control pair it with a [creative workflow they can edit node by node](https://www.wireflow.ai/features/creatify-alternative).
+- **Limits:** template-driven output means variants look like siblings, a problem when a client wants ten visibly different creatives. There is no node-level control over shots, so deep revisions mean regenerating rather than editing. Agencies needing shot-level control pair it with a [creative workflow they can edit node by node](https://www.wireflow.ai/blog/best-creatify-alternatives-in-2026).
 - **Note:** Creatify’s docs describe generating videos "programmatically" through "simple REST API calls". Its homepage advertises "no credit card required" to start, which is a trial claim rather than a stated free tier.
 - **Links:**
   - [Homepage](https://creatify.ai)
